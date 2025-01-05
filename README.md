@@ -51,3 +51,15 @@ docker run -d \ --name mariadb-1 \ -p 3307:3306 \ -e MARIADB_ROOT_PASSWORD=root 
 
 <img width="437" alt="截圖 2025-01-05 下午2 12 29" src="https://github.com/user-attachments/assets/e0d11ba3-9c3e-4925-8588-e7e8b8dce27e" />
 
+
+
+
+
+
+## 問題紀錄
+
+### 出現此錯誤視窗，代表 docker_compose.yaml 格式不正確
+
+<img width="1064" alt="截圖 2025-01-05 晚上10 23 14" src="https://github.com/user-attachments/assets/f0d2b5e2-8b35-4c4c-acbb-ba0739942d45" />
+
+
