@@ -62,4 +62,8 @@ docker run -d \ --name mariadb-1 \ -p 3307:3306 \ -e MARIADB_ROOT_PASSWORD=root 
 
 <img width="1064" alt="截圖 2025-01-05 晚上10 23 14" src="https://github.com/user-attachments/assets/f0d2b5e2-8b35-4c4c-acbb-ba0739942d45" />
 
+## 網頁出現 502 Bad GateWay，代表 Nginx 的 fastcgi_pass 沒有指到 Laradock 的 php-fpm
+
+<img width="538" alt="截圖 2025-01-05 晚上11 26 25" src="https://github.com/user-attachments/assets/9e26b1be-1210-40a5-8134-859253a1b7b7" />
+
 
