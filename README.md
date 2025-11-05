@@ -14,9 +14,9 @@ sudo docker-compose up -d nginx mariadb workspace php-fpm docker-in-docker phpmy
 docker run -d \ --name mariadb-1 \ -p 3306:3306 \ -e MARIADB_ROOT_PASSWORD=root \ laradock-mariadb
 ```
 
-### Docer start
+### Docker start
 
-<img width="1440" alt="截圖 2025-01-05 下午2 09 39" src="https://github.com/user-attachments/assets/5c0a5fc9-2656-4291-9f80-37ed7eb10f34" />
+<img width="937" height="445" alt="截圖 2025-11-05 19 52 10" src="https://github.com/user-attachments/assets/ff47da18-fdc1-4b73-8a0e-23dde0755cd9" />
 
 
 ## DataBase 建構
