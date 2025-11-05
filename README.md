@@ -5,7 +5,7 @@
 ### Docker up
 
 ```
-sudo docker-compose up -d nginx mariadb workspace php-fpm docker-in-docker mysql phpmyadmin
+sudo docker-compose up -d nginx mariadb workspace php-fpm docker-in-docker phpmyadmin redis
 ```
 
 ### 更改 MariaDB 執行 Port
