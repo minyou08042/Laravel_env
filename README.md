@@ -11,7 +11,7 @@ sudo docker-compose up -d nginx mariadb workspace php-fpm docker-in-docker phpmy
 ### 更改 MariaDB 登入密碼
 
 ```
-docker run -d \ --name mariadb-1 \ -p 3307:3306 \ -e MARIADB_ROOT_PASSWORD=root \ laradock-mariadb
+docker run -d \ --name mariadb-1 \ -p 3306:3306 \ -e MARIADB_ROOT_PASSWORD=root \ laradock-mariadb
 ```
 
 ### Docer start
