@@ -8,12 +8,6 @@
 sudo docker-compose up -d nginx mariadb workspace php-fpm docker-in-docker phpmyadmin redis
 ```
 
-### 更改 MariaDB 執行 Port
-
-```
-docker run -d \ --name mariadb-1 \ -p 3307:3306 \ -e MARIADB_ROOT_PASSWORD=root \ laradock-mariadb
-```
-
 ### 更改 MariaDB 登入密碼
 
 ```
